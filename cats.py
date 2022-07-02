@@ -1,7 +1,8 @@
 # Chatnom - A LetThereBeLemons creation
 # Liscenced under DONT STEAL MY CODE YOU ASSHOLE (DSMCYA)
-version = "c2v2-r1"
+version = "c2v3-r2"
 from random import choice as rc
+import colours
 
 cats = [
 """
@@ -98,13 +99,6 @@ cats = [
 `` `-'(((/  (((/
 """,
 """
-        ,-""""""-.
-     /\j__/\  (  \`--.
-     \`@_@'/  _)  >--.`.
-    _{.:Y:_}_{\{_,'    ) )
-   {\_}`-^{_} ```     (_/
-""",
-"""
                        /)
               /\___/\ ((
               \`@_@'/  ))
@@ -151,4 +145,4 @@ cats = [
 ]
 
 def getCat():
-	return rc(cats)
+	return colours.getColour("fg") + rc(cats)
