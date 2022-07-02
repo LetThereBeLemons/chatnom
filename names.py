@@ -1,6 +1,6 @@
 # Chatnom - A LetThereBeLemons creation
 # Liscenced under DONT STEAL MY CODE YOU ASSHOLE (DSMCYA)
-version = "c1v1-r1"
+version = "c1v1-r2"
 from random import choice as rc
 
 names_first = [
@@ -19,7 +19,6 @@ names_last = [
 	"Lemons",
 	"Moggy",
 	"Kitty",
-	"Pussy",
 	"Lolly",
 	"Bunny",
 	"Cotton"
