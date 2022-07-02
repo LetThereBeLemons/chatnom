@@ -1,6 +1,6 @@
 # Chatnom - A LetThereBeLemons creation
 # Liscenced under DONT STEAL MY CODE YOU ASSHOLE (DSMCYA)
-version = "c1v1-r2"
+version = "c1v2-r1"
 from random import choice as rc
 
 names_first = [
@@ -12,16 +12,32 @@ names_first = [
 	"Furry",
 	"Fluffy",
 	"Soft",
-	"Cuddly"
+	"Cuddly",
+	"Squishy",
+	"Squidgy",
+	"Lovely",
+	"Pretty",
+	"Buttery",
+	"Evil"
 ]
 
 names_last = [
-	"Lemons",
+	"Lemon",
 	"Moggy",
 	"Kitty",
 	"Lolly",
 	"Bunny",
-	"Cotton"
+	"Cotton",
+	"Buttercup",
+	"Pickles",
+	"Mimi",
+	"Coco",
+	"Macaroni",
+	"Rose",
+	"Shadow",
+	"Pepper",
+	"Nutmeg",
+	"Peanut"
 ]
 
 def getName():
